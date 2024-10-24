@@ -1,5 +1,5 @@
 {% set name = "diffpy.labpdfproc" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/diffpy_labpdfproc/diffpy_labpdfproc-{{ version }}.tar.gz
-  sha256: 521dd9a24c062ca52d69ef5e571c8551dbff04a23bad55bb8a7cf5940eba9bf6
+  sha256: be987107c75262f2da195b13db2f0ae42e488721a44a1d6d93034e680d0737d9
 
 build:
   noarch: python
@@ -30,7 +30,7 @@ requirements:
     - pandas
     - scipy
 
-test: 
+test:
   requires:
     - pip
     - pytest
